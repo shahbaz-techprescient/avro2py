@@ -29,5 +29,5 @@ services:
       bash -c "
       echo 'Running mypy...'
       && mypy --no-implicit-optional --ignore-missing-imports avro2py/
-      && echo -e '\033[92mLinting succeeded.\033[0m'c
+      && echo -e '\033[92mRunning mypy succeeded.\033[0m'c
       "
