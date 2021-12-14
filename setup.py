@@ -17,7 +17,7 @@ with VERSION_PATH.open('r') as f:
 
 packages = find_packages(exclude=("tests", "tests.*"))
 setup(
-    name='avro2py',
+    name='tm-avro2py',
     packages=[
         'avro2py',
     ],
